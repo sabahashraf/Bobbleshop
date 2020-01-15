@@ -1,0 +1,104 @@
+﻿* {
+margin: 0em;
+padding: 0em;
+font-size: 100%;
+border-style: none;
+list-style-type: none;
+}
+
+main {
+display: block;  
+background-color:#db74ac;
+margin-bottom:0px;
+margin-top:0 px;
+padding-bottom:50px;
+}
+
+header {
+	background-color:#fff;
+}
+
+.card {
+	background-color:#c91678;
+}
+
+.btn {
+	margin-left:20px;
+}
+.btn-primary {
+	background-color:purple;
+	border-color:purple;
+}
+#wrapper {
+	width:100%;
+	margin:0px auto;
+	
+}
+.fa, .far, .fas {
+  margin-top:50px;
+  padding-left:70px;
+  padding-right:20px;
+  }
+ 
+
+ #current-page {
+	color:white;
+	background-color:purple;
+	
+
+}
+.carousel-indicators {
+	position:relative;
+	Top:410px;
+}
+#logo {
+	
+	margin-top:10px;
+	padding-left:8px;
+}
+.navbar {
+	padding:0px;
+}
+.navbar-nav  {
+	width:80%;
+	margin:auto;
+	justify-content:space-around;
+}
+.navvvbar-nav > li{
+ 
+   padding-left:70px;
+  padding-right:70px;
+}
+a:hover#current-page  {
+	color:white;
+	
+	
+}
+a, a:link a:visited {
+	text-decoration:none;
+	color:purple;
+	font-size:18px;
+	
+}
+a:hover {
+	color:white;
+	text-decoration:none;
+}
+
+
+.table-bordered td, .table-bordered th {
+    border: 2px solid #c91678;
+}
+.num_posts_col { text-align: center; }
+ footer#main-footer {
+    background: #c91678;
+    color: #000;
+    margin-top: 0px;
+} 
+
+
+@media only screen and (max-width: 450px) {
+    #logo {
+        width:100%;
+    }
+}
